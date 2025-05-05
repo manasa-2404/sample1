@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>mn travels</title>
+
+
+
+</head>
+<style>
+    body {
+        margin: 0;
+    }
+
+    .header {
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        gap: 25px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: bold;
+    }
+
+    .menu {
+        margin-right: 10px;
+    }
+
+    li {
+        padding: 5px;
+        border-radius: 5px;
+
+    }
+
+    li:hover {
+        transform: scale(1.3);
+        background-color: rgb(130, 175, 160);
+        border-bottom: 2px solid black;
+        cursor: default;
+    }
+
+    .content {
+        background-image: url(images/content.png);
+        height: 600px;
+        background-repeat: no-repeat;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        -webkit-text-fill-color: rgb(191, 178, 64);
+    }
+
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+
+        justify-content: space-evenly;
+
+    }
+
+    .servicesheading {
+        text-align: center;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .image1,
+    .image2,
+    .image3 {
+        max-width: 300px;
+        border-radius: 10px;
+        border: 1px solid black;
+        text-align: center;
+
+
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .image1,
+    .image2,
+    .image3,
+    :hover {
+        border-top-left-radius: 20%;
+    }
+
+    .about-us {
+        padding-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-evenly;
+        background-color: rgb(221, 234, 229);
+    }
+
+    .sideimage {
+        max-width: 400px;
+        border: 1px solid black;
+    }
+
+    .sidetext {
+        max-width: 500px;
+        text-align: justify;
+
+    }
+
+    .g1,
+    .g2,
+    .g3,
+    .g4,
+    .g5,
+    .g6 {
+        max-width: 500px;
+        cursor: copy;
+        transition: transform 1s;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid beige;
+
+    }
+
+    .g1:hover,
+    .g2:hover,
+    .g3:hover,
+    .g4:hover,
+    .g5:hover,
+    .g6:hover {
+        transform: scale(1.1);
+    }
+
+    .gallerytext {
+
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: black;
+        color: rgb(199, 142, 142);
+        text-align: center;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .address {
+        margin: left 20px;
+    }
+
+    .address:hover {
+        transform: scale(1.2);
+        background-color: azure;
+        border-radius: 2px;
+        border-bottom: 3px solid black;
+        cursor: progress;
+
+    }
+</style>
+
+<body>
+    <div class="cantainer">
+        <div class="header">
+            <div class="logo">
+                <img src="images/logo.png" class="logo">
+                <span class="logo-name">MN travels</span>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>services</li>
+                    <li>gallery</li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+
+            <h1 class="heading">travel to the world</h1>
+            <p>travel is the movement of people between different loctionss</p>
+
+        </div>
+        <h1 class="servicesheading">Our Services</h1>
+        <div class="services">
+            <div class="card1">
+                <img src="images/card1.png" class="image1">
+                <p>Travel with the all the freeness</p>
+            </div>
+            <div class="card2">
+                <img src="images/card2.png" class="image2">
+                <p>we will provide 24/7 service,Always with you</p>
+            </div>
+            <div class="card3">
+                <img src="images/card3.png" class="image3">
+                <p>Travel with budget friendly</p>
+            </div>
+        </div>
+        <div class="about-us">
+            <img src="images/side.png" class="sideimage">
+            <div class="sidetext">
+                <h1>About-us</h1>
+                <p>Welcome to MN Travels, your trusted travel partner for unforgettable journeys! Founded in 2025, MN
+                    Travels was born out of a passion for exploring the world and creating memorable experiences for
+                    travelers. Our mission is to make travel accessible, exciting, and stress-free for all types of
+                    adventurers, from solo explorers to families and business travelers.
+
+                    With over a decade of experience, MN Travels has earned a reputation for offering expertly curated
+                    travel packages, seamless booking experiences, and personalized itineraries that cater to your
+                    unique preferences. Whether you're dreaming of a relaxing beach getaway, an adventurous trek through
+                    the mountains, or a luxury tour through historic cities, we have something for everyone.</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <h2 class="gallerytext">Our Gallery</h2>
+            <img src="images/g1.png" class="g1">
+            <img src="images/g2.png" class="g2">
+            <img src="images/g3.png" class="g3">
+            <img src="images/g4.png" class="g4">
+            <img src="images/g5.png" class="g5">
+            <img src="images/g6.png" class="g6">
+        </div>
+    </div>
+    </div>
+    </div>
+
+    </div>
+    <div class="footer">
+        <div class="address">
+            jp.nagar 6th phase,<br>
+            banglore<br>
+            karnataka,india
+        </div>
+        <div class="contact">
+            <p>mntravels.com</p>
+            <p>+919876543587</p>
+            <p>@2025</p>
+        </div>
+    </div>
+    </div>
+</body>
